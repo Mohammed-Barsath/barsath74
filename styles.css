@@ -1,0 +1,305 @@
+/* Reset some default styles for the header */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a dark background color to the header */
+  .dark-header {
+    background-color: #222; /* You can adjust this color to your preference */
+    color: #fff; /* Text color for the header */
+    padding: 10px 0;
+  }
+  
+  /* Center-align the header content */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style the header title */
+  h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Style the navigation menu */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ff6600; /* Change the color when hovered */
+  }
+  /* Apply a dark background color to the navigation menu */
+.dark-nav {
+    background-color: #222; /* You can adjust this color to your preference */
+    color: #fff; /* Text color for the navigation menu */
+  }
+  
+  /* Center-align the navigation menu items */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style the navigation menu list */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ff6600; /* Change the color when hovered */
+  }
+/* Apply a dark background color to the About section */
+.dark-about {
+    background-color: #222; /* You can adjust this color to your preference */
+    color: #fff; /* Text color for the About section */
+    padding: 50px 0;
+  }
+  
+  /* Center-align the About section content */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Style the About section title */
+  h2 {
+    font-size: 28px;
+  }
+  
+  /* Style the content within the About section */
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .about-content img {
+    max-width: 50%;
+    border-radius: 8px; /* Add rounded corners to the image */
+  }
+  
+  .about-content p {
+    max-width: 45%;
+    font-size: 16px;
+    margin-top: 0;
+  }
+  body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.schedule-section {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+.schedule-header {
+    font-size: 24px;
+    margin: 0;
+    padding: 10px;
+}
+
+.show-item {
+    border: 2px solid #444;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.show-item h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.show-item p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.show-item a {
+    color: #ff6600;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.show-item a:hover {
+    color: #ff9933;
+}
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-section {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-header {
+  font-size: 24px;
+  margin: 0;
+  padding: 10px;
+}
+
+.contact-details {
+  margin: 20px 0;
+}
+
+.contact-details p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.contact-details a {
+  color: #ff6600;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-details a:hover {
+  color: #ff9933;
+}
+
+.contact-form {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-form h3 {
+  font-size: 18px;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+}
+
+.contact-form button {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #ff9933;
+}
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.social-proof-section {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-proof-header {
+  font-size: 24px;
+  margin: 0;
+  padding: 10px;
+}
+
+.testimonial {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+.testimonial img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+.testimonial p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.user-name {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #ff6600;
+}
+
+.user-name:before {
+  content: "\2014 ";
+}
+
+.testimonial:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
